@@ -15,7 +15,6 @@ class Sbt < Formula
     sha256 cellar: :any_skip_relocation, all: "3ab83d5f06068e59c537daa0aa5ad18c56b91204fe2f7a8bbb274129bfdcf521"
   end
 
-  depends_on arch: :x86_64
   depends_on "openjdk"
 
   def install
